@@ -346,4 +346,32 @@ header {
     .contactUs{
         padding: 20px;
     }
+    .box{
+        /*position: relative;
+        display: grid;*/
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "form"
+        "info"
+        "map";
+    }
+    .map{
+        min-height: 300px;
+        padding: 0;
+    }
+    .formBox .row50{
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+    .inputBox {
+        /*display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;*/
+        width: 100%;
+    }
+    .contact{
+        padding: 30px;
+    }
 }
